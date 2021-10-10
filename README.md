@@ -1,5 +1,5 @@
 # auto-filter-bot-v3
-This Telegram is [Adv-Auto-Filter-Bot-V2](https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2) and [Media-Search-Bot](https://github.com/Mahesh0253/Media-Search-bot) Modified Version.
+This Telegram Bot is [Adv-Auto-Filter-Bot-V2](https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2) and [Media-Search-Bot](https://github.com/Mahesh0253/Media-Search-bot) Modified Version.
 
 ---
 
