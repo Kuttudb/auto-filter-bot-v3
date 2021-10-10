@@ -77,7 +77,7 @@
             "description": "mongoDB URI. Get this value from https://www.mongodb.com ",
             "value": ""
         },
-        "BOT_NAME": {
+        "DATABASE_NAME": {
             "description": "Name of the database in mongoDB ",
             "value": ""
         },
