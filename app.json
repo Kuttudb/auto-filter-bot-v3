@@ -73,7 +73,7 @@
             "value": "",
             "required": false
         },
-        "DATABASE_2": {
+        "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com ",
             "value": ""
         },
@@ -95,11 +95,6 @@
             "description": "Value should be True or False. Broadcast with Forward Tag or as Copy.(Without Forward Tag)",
             "value": "True",
             "required": false
-        },
-        "DATABASE_1": {
-            "description": "Broadcast Group Database MongoDB",
-            "value": "",
-            "required": true
         },
         "ADMIN_ID": {
             "description": "Control BroadCast",
