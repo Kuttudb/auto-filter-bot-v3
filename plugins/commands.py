@@ -137,10 +137,10 @@ async def start(bot, message):
                 InlineKeyboardButton("🔎 Search Here", switch_inline_query_current_chat=''),
                 InlineKeyboardButton("Go Inline 🗣️", switch_inline_query='')
                 ],[
-                InlineKeyboardButton("🖲️ Help", callback_data="help"),
-                InlineKeyboardButton("About 🧑‍🔧", callback_data="about")
+                InlineKeyboardButton("🖲️ Commands", callback_data="help"),
+                InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
                 ],[
-                InlineKeyboardButton("🤖 More @BotzListBot 🤖", url="https://t.me/BotzListBot")
+                InlineKeyboardButton("🤖 More Bots @BotzListBot 🤖", url="https://t.me/BotzListBot")
                 ]]
             )
         )
@@ -353,7 +353,8 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('👨‍💻 Developer @ZauteKm 📢', url=f'{DEV_CHANNEL}')
+            InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
+            InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
