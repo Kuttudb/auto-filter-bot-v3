@@ -34,8 +34,7 @@ This Telegram Bot is [Adv-Auto-Filter-Bot-V2](https://github.com/CrazyBotsz/Adv-
 * `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
 * `ADMIN_ID`: Control BroadCast.
-* `DATABASE_1`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/nj-lJfkgb6w) Broadcast Group Database.
-* `DATABASE_2`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/nj-lJfkgb6w)
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/nj-lJfkgb6w)
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/nj-lJfkgb6w)
 * `BROADCAST`: Value should be `True` or `False`. Broadcast with Forward Tag or as Copy.(Without Forward Tag).
 * `BROADCAST_CHANNEL`: ID of a Channel (user Notification).
