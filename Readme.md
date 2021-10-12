@@ -1,6 +1,8 @@
 # auto-filter-bot-v3
 This Telegram Bot is [Adv-Auto-Filter-Bot-V2](https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2) and [Media-Search-Bot](https://github.com/Mahesh0253/Media-Search-bot) Modified Version.
 
+- Telegram Inline & Auto Filter Bot for Channels and Groups. A greater auto filter bot with features like IMDb Posters support, Inline mode, Broadcast feature etc..
+
 ---
 
 ## Features
