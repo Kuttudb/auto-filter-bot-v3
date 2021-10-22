@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/ZauteKm/auto-filter-bot-v3",
-    "repository": "https://github.com/zautekm/auto-filter-bot-v3",
+    "repository": "https://github.com/Kuttudb/auto-filter-bot-v3",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
