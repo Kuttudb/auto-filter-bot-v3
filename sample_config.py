@@ -14,7 +14,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # Bot information
-SESSION = 'dorafilmbot'
+SESSION = 'dorafilmsbot'
 USER_SESSION = 'User_Bot'
 API_ID = 15056052
 API_HASH = '87f3fa0ad63a2b9dc87f2fd6def04970'
