@@ -13,57 +13,35 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import re
-import os
-from os import environ
-
-id_pattern = re.compile(r'^.\d+$')
-
 # Bot information
 SESSION = environ.get('SESSION', 'auto-filter-bot-v3')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = 22142831
+API_HASH = 'd6a89dfe22948aa819c627657895ec29'
+BOT_TOKEN = '6420381997:AAGSnp_HOWoZG5WrD5v2ZRGuU2XuawG3Hek'
+
+
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-
-BROADCAST_CHANNEL = int(os.environ.get("BROADCAST_CHANNEL", ""))
-ADMIN_ID = set(int(x) for x in os.environ.get("ADMIN_ID", "").split())
-DB_URL = os.environ.get("DATABASE_URI", "")
-BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST", True))
+CACHE_TIME = 300
+USE_CAPTION_FILTER = False
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ['ADMINS'].split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ['CHANNELS'].split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
-AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('FORCES_SUB')
-AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else auth_channel
-AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
-DEV_CHANNEL = "https://t.me/ZauteKm"
+ADMINS = [1781449629, 'MICKEL_VASANTH_7',]
+CHANNELS = [-1001935788716, --1002118333187, 'steve']
+auth_users = []
+Auth_channel = none
 
 # MongoDB information
-DATABASE_URI = environ['DATABASE_URI']
-DATABASE_NAME = environ['DATABASE_NAME']
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = "mongodb+srv://STEVE:STEVE@atlascluster.fvqlfvq.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_NAME = auto-filter-bot
+COLLECTION_NAME = 'steve'
 
 # Messages
-default_start_msg = """
-**Hi, I'm [auto-filter-bot-v3](https://github.com/zautekm/auto-filter-bot-v3)**
+START_MSG = """
+**Hi, I'm Media Search bot**
 
-Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
-"""
-START_MSG = environ.get('START_MSG', default_start_msg)
+Here you can search files in inline mode. Just press follwing buttons
 
-FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
-OMDB_API_KEY = environ.get("OMDB_API_KEY", "http://www.omdbapi.com/?i=tt3896198&apikey=4f08a979")
-if FILE_CAPTION.strip() == "":
-    CUSTOM_FILE_CAPTION=None
-else:
-    CUSTOM_FILE_CAPTION=FILE_CAPTION
-if OMDB_API_KEY.strip() == "":
-    API_KEY=None
-else:
-    API_KEY=OMDB_API_KEY
+SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
+
+INVITE_MSG = 'Please join @.... to use this bot'
